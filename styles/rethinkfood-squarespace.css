@@ -1,0 +1,327 @@
+.sqs-search-ui-button-wrapper.color-light .search-input {
+  background-image: url(/universal/images-v6/icons/icon-searchqueries-20-dark.png);
+  color: black;
+  border: 1px solid black;
+}
+
+.hsfc-Step .hsfc-Step__Content {
+  padding-left: 0 !important;
+}
+
+:root {
+  --hsf-default-background__padding: 0px !important;
+}
+
+[id="7436707b-85b3-4ba9-833e-9faba97b2642-r"][data-hsfc-id="Renderer"] {
+  --hsf-default-button__background-color: red !important;
+}
+
+/* Auto List Carousel — 2 */
+@media screen and (max-width: 767px) {
+  section[data-section-id="6932e2af636e1a39536fcf9a"],
+  section[data-section-id="69315c985ac492503a39daa6"] .user-items-list-carousel__slides {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+/* Video invisible when stopped */
+.plyr--stopped .plyr__video-wrapper {
+  opacity: 0;
+}
+
+.plyr--stopped .plyr__controls {
+  display: none !important;
+}
+
+/* Header Navigation Dropdown Menu */
+.header-nav-item--folder:last-child .header-nav-folder-title {
+  background-color: #00aa78;
+  color: white !important;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 0;
+}
+
+/* Header Navigation Dropdown Menu */
+.header-nav-item--folder:nth-child(5) .header-nav-folder-title {
+  background-color: #000000;
+  color: white !important;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 0;
+}
+
+.blog-side-by-side .blog-title {
+  font-size: 2rem !important;
+}
+
+.blog-side-by-side .blog-date {
+  font-size: 1.625rem;
+}
+
+/* Menu mobile */
+.header--menu-open .header .header-title-text a {
+  font-size: 2rem;
+}
+
+a:hover {
+  opacity: 0.85;
+  transition: opacity 0.3s ease;
+}
+
+/* Newsletter Form */
+.newsletter-block .newsletter-form-header-title {
+  font-size: 1.25rem !important;
+  font-weight: 500;
+}
+
+.sqs-block-newsletter .newsletter-form-header-description {
+  display: none;
+}
+
+.newsletter-block .newsletter-form-field-element {
+  color: #000000 !important;
+}
+
+.newsletter-form-field-element {
+  border-bottom: solid 2px #000000 !important;
+  background-color: transparent !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+}
+
+/* Input Focus Border */
+.newsletter-block .newsletter-form-field-element:focus {
+  outline-style: none !important;
+}
+
+/* Input */
+.newsletter-block .newsletter-form-field-element {
+  padding-left: 0 !important;
+  padding-top: 0.4rem !important;
+  padding-bottom: 0.4rem !important;
+}
+
+/* Button */
+.newsletter-block .newsletter-form-button {
+  padding-top: 0.4rem !important;
+  padding-bottom: 0.4rem !important;
+  padding-left: 1.3rem !important;
+  padding-right: 1.3rem !important;
+}
+
+.newsletter-block .newsletter-form-button-wrapper {
+  margin: 1.4rem 0 0 0;
+}
+
+.newsletter-block .newsletter-form-field-element::placeholder {
+  color: #000000 !important;
+  font-size: 1.25rem !important;
+  font-weight: 500;
+}
+
+.newsletter-block .newsletter-form-header-title {
+  text-transform: uppercase;
+  font-size: 5.2rem !important;
+  margin: 0;
+}
+
+.sqs-block-newsletter .newsletter-form-header-description,
+.newsletter-form .newsletter-form-footnote,
+.newsletter-block .newsletter-form-header-title {
+  display: none;
+}
+/* Newsletter Form END */
+
+#siteWrapper .user-items-list-item-container.user-items-list-carousel[data-description-font-unit="rem"] .list-item-content__description {
+  font-weight: normal !important;
+}
+
+#siteWrapper .user-items-list-item-container.user-items-list-carousel[data-title-font-unit="rem"] .list-item-content__title {
+  text-transform: none;
+}
+
+@font-face {
+  font-family: "StyreneA";
+  src: url("https://static1.squarespace.com/static/691f12e981c1e765372dfbcb/t/691f21f93862087420bf880c/1763647994013/StyreneA-Black-Web.woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+.sqsrte-large {
+  line-height: 1.15em;
+  letter-spacing: -0.04rem;
+}
+
+h1 strong,
+h2 strong,
+h3 strong,
+h4 strong {
+  font-weight: 900;
+  font-family: "StyreneA";
+}
+
+/**
+* Hide Buttons in
+* Simple List Section
+* from Will-Myers.com
+**/
+section[data-section-id="691f5a62e0df5e468867de35"] .user-items-list-simple .list-item-content__button-wrapper {
+  display: none;
+}
+
+/* Dropdown */
+.header .header-layout-nav-right .header-nav .header-nav-item--folder .header-nav-folder-content {
+  left: -1em;
+  right: auto;
+  text-align: left;
+}
+
+/* Blog */
+[data-collection-type^="blog"] .item-pagination-title {
+  display: none;
+}
+
+.blog-basic-grid .blog-title {
+  font-size: 1.625rem;
+}
+
+.blog-item-wrapper .blog-item-title h1.entry-title {
+  font-size: 2.8125rem;
+  font-weight: 600;
+}
+
+h4,
+h3 {
+  margin: 0.5rem 0;
+}
+
+/* MOBILE FONTS */
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  h4 {
+    font-size: 22px;
+  }
+
+  .sqsrte-small {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .sqsrte-large {
+    font-size: 18px;
+  }
+}
+
+/**
+* Clickable Image in
+* List Section Carousel
+* from Will-Myers.com
+**/
+.user-items-list ul .user-items-list-carousel__media-inner {
+  pointer-events: auto;
+}
+
+.user-items-list ul .user-items-list-carousel__media-inner img {
+  pointer-events: none;
+}
+
+/* Button */
+#siteWrapper.site-wrapper .sqs-button-element--primary,
+#siteWrapper.site-wrapper .sqs-button-element--secondary,
+#siteWrapper.site-wrapper .sqs-button-element--tertiary {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+@media screen and (max-width: 767px) {
+  .header-overlay-alignment-left .header-menu-actions,
+  .header-overlay-alignment-left .header-menu-cta {
+    width: 90%;
+  }
+}
+
+/* Button in list */
+.list-item-content__button {
+  display: block !important;
+  width: 100% !important;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0.4rem 0;
+}
+
+#siteWrapper .header-actions-action--cta .sqs-button-element--primary,
+#siteWrapper .header-skip-link {
+  padding-left: 12px;
+  padding-right: 12px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.sqs-block-horizontalrule hr {
+  height: 2px;
+}
+
+/**
+* Custom Dimension
+* Video Blocks
+* From Will-Myers.com
+**/
+.sqs-block.video-block.sqs-block-video .native-video-player {
+  padding-top: 0 !important;
+}
+
+.sqs-block.video-block.sqs-block-video video {
+  position: absolute;
+  object-fit: cover !important;
+}
+
+.sqs-block.video-block.sqs-block-video .plyr {
+  position: relative;
+}
+
+.sqs-block.video-block.sqs-block-video .intrinsic,
+.sqs-block.video-block.sqs-block-video .sqs-block-content,
+.sqs-block.video-block.sqs-block-video .embed-block-wrapper,
+.sqs-block.video-block.sqs-block-video .sqs-native-video,
+.sqs-block.video-block.sqs-block-video .plyr {
+  height: 100%;
+}
+
+.sqs-block.video-block.sqs-block-video .plyr__poster {
+  background-size: cover !important;
+}
+
+.fluid-engine-block.is-being-dragged .sqs-block.video-block.sqs-block-video {
+  display: none;
+}
+
+.sqs-block.video-block.sqs-block-video .embed-block-wrapper:has([data-provider-name="YouTube"]) {
+  padding-bottom: 0 !important;
+}
+
+.sqs-background-enabled.sqs-block-html,
+.sqs-background-enabled.sqs-block-accordion {
+  background-color: transparent;
+}

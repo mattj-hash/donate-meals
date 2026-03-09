@@ -143,3 +143,8 @@ Managed via `admin_users` table.
 - `npm run test` - unit tests
 - `npm run db:migrate` - run SQL migrations
 - `npm run db:seed` - seed admin allowlist
+
+## Squarespace Stylesheet
+
+- Custom Squarespace CSS is stored in `styles/rethinkfood-squarespace.css`.
+- Paste this file into Squarespace `Design -> Custom CSS` when updating the main Squarespace site.
