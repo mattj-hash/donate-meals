@@ -1,0 +1,53 @@
+export type DonationStatus = 'pending_review' | 'needs_info' | 'approved' | 'rejected';
+
+export type Donation = {
+  id: string;
+  status: DonationStatus;
+  donor_business_name: string;
+  donor_contact_name: string;
+  donor_email: string;
+  donor_phone: string | null;
+  donor_address1: string | null;
+  donor_address2: string | null;
+  donor_city: string | null;
+  donor_state: string | null;
+  donor_zip: string | null;
+  donation_datetime: string;
+  meal_count: number;
+  meal_description: string;
+  dietary_packaging_notes: string | null;
+  dropoff_site_name: string | null;
+  dropoff_address1: string;
+  dropoff_address2: string | null;
+  dropoff_city: string;
+  dropoff_state: string;
+  dropoff_zip: string;
+  fmv_per_meal: string | null;
+  fmv_total: string | null;
+  donor_verified_at: string | null;
+  assigned_admin_email: string | null;
+  internal_note: string | null;
+  reject_reason: string | null;
+  needs_info_message: string | null;
+  goods_services_provided: boolean;
+  quid_pro_quo_desc: string | null;
+  quid_pro_quo_value: string | null;
+  approval_date: string | null;
+  receipt_code: string | null;
+  receipt_s3_key: string | null;
+  receipt_generated_at: string | null;
+  receipt_sent_at: string | null;
+  created_at: string;
+  updated_at: string;
+};
+
+export type DonationPhoto = {
+  id: number;
+  donation_id: string;
+  kind: 'meal_photo' | 'invoice';
+  file_name: string;
+  mime_type: string;
+  size_bytes: number;
+  s3_key: string;
+  created_at: string;
+};

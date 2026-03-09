@@ -1,0 +1,5 @@
+<svg width="180" height="40" viewBox="0 0 180 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="1" y="1" width="38" height="38" rx="8" stroke="#14532D" stroke-width="2"/>
+  <path d="M12 26c4-6 8-10 14-14 1 9-3 14-10 17l-4-3z" fill="#14532D"/>
+  <text x="50" y="25" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#14532D">Rethink Food</text>
+</svg>
