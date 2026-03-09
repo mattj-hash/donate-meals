@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "../../styles/rethinkfood-squarespace.css";
+@import "../../styles/donate-meals-app.css";
 
 :root {
   --bg: #f7f5ef;

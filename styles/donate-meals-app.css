@@ -1,0 +1,148 @@
+@font-face {
+  font-family: "StyreneA";
+  src: url("https://static1.squarespace.com/static/691f12e981c1e765372dfbcb/t/691f21f93862087420bf880c/1763647994013/StyreneA-Black-Web.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+.dm-app {
+  --dm-black: #0b0b0b;
+  --dm-green: #00aa78;
+  --dm-card: #ffffff;
+  --dm-soft: #f4f6f8;
+  color: var(--dm-black);
+}
+
+.dm-app h1,
+.dm-app h2,
+.dm-app h3,
+.dm-app h4 {
+  letter-spacing: -0.02em;
+  line-height: 1.08;
+}
+
+.dm-app h1 strong,
+.dm-app h2 strong,
+.dm-app h3 strong,
+.dm-app h4 strong {
+  font-family: "StyreneA", "Avenir Next", "Segoe UI", sans-serif;
+  font-weight: 900;
+}
+
+.dm-app p {
+  margin: 0.45rem 0;
+}
+
+.dm-app a:hover {
+  opacity: 0.85;
+  transition: opacity 0.3s ease;
+}
+
+.dm-app section,
+.dm-app header,
+.dm-app form,
+.dm-app table {
+  background-color: var(--dm-card);
+}
+
+.dm-app input,
+.dm-app textarea,
+.dm-app select {
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom: 2px solid var(--dm-black) !important;
+  background-color: transparent !important;
+  color: var(--dm-black) !important;
+  border-radius: 0 !important;
+  padding-left: 0 !important;
+}
+
+.dm-app input::placeholder,
+.dm-app textarea::placeholder {
+  color: #000000 !important;
+  opacity: 0.8;
+}
+
+.dm-app input:focus,
+.dm-app textarea:focus,
+.dm-app select:focus {
+  outline: none !important;
+  border-bottom-color: var(--dm-green) !important;
+  box-shadow: none !important;
+}
+
+.dm-app button,
+.dm-app a.rounded-lg,
+.dm-app a.rounded-md,
+.dm-app a.rounded-full {
+  font-weight: 600;
+}
+
+.dm-app button {
+  letter-spacing: 0.01em;
+}
+
+.dm-app .bg-slate-900,
+.dm-app .bg-emerald-800,
+.dm-app .bg-emerald-700 {
+  background-color: var(--dm-black) !important;
+}
+
+.dm-app .text-emerald-700,
+.dm-app .text-emerald-800,
+.dm-app .text-emerald-900 {
+  color: var(--dm-green) !important;
+}
+
+.dm-app .border-emerald-200,
+.dm-app .border-emerald-700 {
+  border-color: var(--dm-green) !important;
+}
+
+.dm-app .bg-emerald-50,
+.dm-app .bg-emerald-50\/60 {
+  background-color: #e8fbf5 !important;
+}
+
+.dm-app .bg-slate-50 {
+  background-color: var(--dm-soft) !important;
+}
+
+.dm-app .overflow-hidden table thead th {
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.72rem;
+}
+
+.dm-app .overflow-hidden table tbody tr:hover {
+  background-color: #effaf6 !important;
+}
+
+.dm-app img {
+  image-rendering: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .dm-app h1 {
+    font-size: 2.25rem !important;
+  }
+
+  .dm-app h2 {
+    font-size: 1.75rem !important;
+  }
+
+  .dm-app h3 {
+    font-size: 1.5rem !important;
+  }
+
+  .dm-app h4 {
+    font-size: 1.25rem !important;
+  }
+
+  .dm-app .fixed.bottom-4.right-4 a {
+    width: auto;
+    min-width: 124px;
+  }
+}
